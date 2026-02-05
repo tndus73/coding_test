@@ -1,0 +1,6 @@
+-- 코드를 입력하세요
+SELECT TITLE, a.BOARD_ID, b.REPLY_ID, b.WRITER_ID, b.CONTENTS, to_char(b.CREATED_DATE,'YYYY-MM-DD')CREATED_DATE
+from USED_GOODS_BOARD a
+    inner join USED_GOODS_REPLY b
+    on a.BOARD_ID = b.BOARD_ID and to_char(a.CREATED_DATE,'YYYY-MM')='2022-10'
+order by b.CREATED_DATE, TITLE
