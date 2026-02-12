@@ -1,6 +1,6 @@
 -- 코드를 입력하세요
-SELECT to_char(DATETIME,'HH24')*1.0 hour, count(*) COUNT
+SELECT date_Format(DATETIME,'%H') hour, count(*) COUNT
 from ANIMAL_OUTS
-where to_char(DATETIME,'HH24') >= '09' and to_char(DATETIME,'HH24')<'20'
-group by to_char(DATETIME,'HH24')
+where date_Format(DATETIME,'%H') >= '09' and date_Format(DATETIME,'%H')<'20'
+group by date_Format(DATETIME,'%H')
 order by hour
