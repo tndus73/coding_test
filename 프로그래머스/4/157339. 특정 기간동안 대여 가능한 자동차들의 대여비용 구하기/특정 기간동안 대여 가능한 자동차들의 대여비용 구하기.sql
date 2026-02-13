@@ -7,8 +7,8 @@ AS
       AND c.CAR_ID NOT IN (
                           SELECT h.CAR_ID
                           FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY h
-                          WHERE h.START_DATE <= TO_DATE('2022-11-30', 'YYYY-MM-DD')
-                            AND h.END_DATE   >= TO_DATE('2022-11-01', 'YYYY-MM-DD')
+                          WHERE h.START_DATE <= '2022-11-30'
+                            AND h.END_DATE   >= '2022-11-01'
                             )
 )
 ,   priced
