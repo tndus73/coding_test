@@ -2,6 +2,13 @@
 /**
 customers T1 left join Orders T2 on T1.id = T2.CustomerId
 T2 id가 없는 고객
+
+SELECT name AS Customers
+FROM Customers
+WHERE id NOT IN (
+    SELECT customerId
+    FROM Orders
+);
 **/
 select T1.name Customers 
 from customers T1
