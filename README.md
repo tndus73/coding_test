@@ -12,4 +12,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0183-customers-who-never-order](https://github.com/tndus73/coding_test/tree/main/0183-customers-who-never-order/) | Easy |
 | [0196-delete-duplicate-emails](https://github.com/tndus73/coding_test/tree/main/0196-delete-duplicate-emails/) | Easy |
 | [0511-game-play-analysis-i](https://github.com/tndus73/coding_test/tree/main/0511-game-play-analysis-i/) | Easy |
+| [0577-employee-bonus](https://github.com/tndus73/coding_test/tree/main/0577-employee-bonus/) | Easy |
 <!---LeetCode Topics End-->
