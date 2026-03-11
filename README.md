@@ -24,4 +24,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0620-not-boring-movies](https://github.com/tndus73/coding_test/tree/main/0620-not-boring-movies/) | Easy |
 | [0627-swap-sex-of-employees](https://github.com/tndus73/coding_test/tree/main/0627-swap-sex-of-employees/) | Easy |
 | [1050-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/tndus73/coding_test/tree/main/1050-actors-and-directors-who-cooperated-at-least-three-times/) | Easy |
+| [1068-product-sales-analysis-i](https://github.com/tndus73/coding_test/tree/main/1068-product-sales-analysis-i/) | Easy |
 <!---LeetCode Topics End-->
