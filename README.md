@@ -26,4 +26,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1050-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/tndus73/coding_test/tree/main/1050-actors-and-directors-who-cooperated-at-least-three-times/) | Easy |
 | [1068-product-sales-analysis-i](https://github.com/tndus73/coding_test/tree/main/1068-product-sales-analysis-i/) | Easy |
 | [1075-project-employees-i](https://github.com/tndus73/coding_test/tree/main/1075-project-employees-i/) | Easy |
+| [1084-sales-analysis-iii](https://github.com/tndus73/coding_test/tree/main/1084-sales-analysis-iii/) | Easy |
 <!---LeetCode Topics End-->
