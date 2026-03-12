@@ -1,4 +1,5 @@
 # Write your MySQL query statement below
+/** COUNT(v.visit_id) 써도 null count잘함 **/
 select customer_id, sum(ifnull(T.transaction_id,1)) count_no_trans
 from Visits V 
 left join Transactions T on V.visit_id=T.visit_id
