@@ -34,4 +34,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1251-average-selling-price](https://github.com/tndus73/coding_test/tree/main/1251-average-selling-price/) | Easy |
 | [1280-students-and-examinations](https://github.com/tndus73/coding_test/tree/main/1280-students-and-examinations/) | Easy |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/tndus73/coding_test/tree/main/1378-replace-employee-id-with-the-unique-identifier/) | Easy |
+| [1407-top-travellers](https://github.com/tndus73/coding_test/tree/main/1407-top-travellers/) | Easy |
 <!---LeetCode Topics End-->
