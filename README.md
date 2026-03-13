@@ -51,4 +51,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1741-find-total-time-spent-by-each-employee](https://github.com/tndus73/coding_test/tree/main/1741-find-total-time-spent-by-each-employee/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/tndus73/coding_test/tree/main/1757-recyclable-and-low-fat-products/) | Easy |
 | [1789-primary-department-for-each-employee](https://github.com/tndus73/coding_test/tree/main/1789-primary-department-for-each-employee/) | Easy |
+| [1795-rearrange-products-table](https://github.com/tndus73/coding_test/tree/main/1795-rearrange-products-table/) | Easy |
 <!---LeetCode Topics End-->
