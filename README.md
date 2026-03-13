@@ -22,6 +22,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/tndus73/coding_test/tree/main/0570-managers-with-at-least-5-direct-reports/) | Medium |
 | [0577-employee-bonus](https://github.com/tndus73/coding_test/tree/main/0577-employee-bonus/) | Easy |
 | [0584-find-customer-referee](https://github.com/tndus73/coding_test/tree/main/0584-find-customer-referee/) | Easy |
+| [0585-investments-in-2016](https://github.com/tndus73/coding_test/tree/main/0585-investments-in-2016/) | Medium |
 | [0586-customer-placing-the-largest-number-of-orders](https://github.com/tndus73/coding_test/tree/main/0586-customer-placing-the-largest-number-of-orders/) | Easy |
 | [0595-big-countries](https://github.com/tndus73/coding_test/tree/main/0595-big-countries/) | Easy |
 | [0596-classes-with-at-least-5-students](https://github.com/tndus73/coding_test/tree/main/0596-classes-with-at-least-5-students/) | Easy |
