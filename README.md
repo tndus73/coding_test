@@ -48,4 +48,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1693-daily-leads-and-partners](https://github.com/tndus73/coding_test/tree/main/1693-daily-leads-and-partners/) | Easy |
 | [1729-find-followers-count](https://github.com/tndus73/coding_test/tree/main/1729-find-followers-count/) | Easy |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/tndus73/coding_test/tree/main/1731-the-number-of-employees-which-report-to-each-employee/) | Easy |
+| [1741-find-total-time-spent-by-each-employee](https://github.com/tndus73/coding_test/tree/main/1741-find-total-time-spent-by-each-employee/) | Easy |
 <!---LeetCode Topics End-->
