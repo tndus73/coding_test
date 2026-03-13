@@ -53,4 +53,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1789-primary-department-for-each-employee](https://github.com/tndus73/coding_test/tree/main/1789-primary-department-for-each-employee/) | Easy |
 | [1795-rearrange-products-table](https://github.com/tndus73/coding_test/tree/main/1795-rearrange-products-table/) | Easy |
 | [1873-calculate-special-bonus](https://github.com/tndus73/coding_test/tree/main/1873-calculate-special-bonus/) | Easy |
+| [1890-the-latest-login-in-2020](https://github.com/tndus73/coding_test/tree/main/1890-the-latest-login-in-2020/) | Easy |
 <!---LeetCode Topics End-->
