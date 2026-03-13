@@ -58,4 +58,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1978-employees-whose-manager-left-the-company](https://github.com/tndus73/coding_test/tree/main/1978-employees-whose-manager-left-the-company/) | Easy |
 | [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/tndus73/coding_test/tree/main/2356-number-of-unique-subjects-taught-by-each-teacher/) | Easy |
 | [3436-find-valid-emails](https://github.com/tndus73/coding_test/tree/main/3436-find-valid-emails/) | Easy |
+| [3465-find-products-with-valid-serial-numbers](https://github.com/tndus73/coding_test/tree/main/3465-find-products-with-valid-serial-numbers/) | Easy |
 <!---LeetCode Topics End-->
