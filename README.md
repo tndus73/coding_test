@@ -45,4 +45,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1661-average-time-of-process-per-machine](https://github.com/tndus73/coding_test/tree/main/1661-average-time-of-process-per-machine/) | Easy |
 | [1667-fix-names-in-a-table](https://github.com/tndus73/coding_test/tree/main/1667-fix-names-in-a-table/) | Easy |
 | [1683-invalid-tweets](https://github.com/tndus73/coding_test/tree/main/1683-invalid-tweets/) | Easy |
+| [1693-daily-leads-and-partners](https://github.com/tndus73/coding_test/tree/main/1693-daily-leads-and-partners/) | Easy |
 <!---LeetCode Topics End-->
