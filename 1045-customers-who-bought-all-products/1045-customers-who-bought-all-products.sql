@@ -5,5 +5,5 @@ from (
     select customer_id, count(distinct product_key) prodct_key
     from Customer C
     group by customer_id
-    )
+    )T
 where prodct_key in (select count(*) from Product P)
