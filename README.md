@@ -44,6 +44,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1148-article-views-i](https://github.com/tndus73/coding_test/tree/main/1148-article-views-i/) | Easy |
 | [1158-market-analysis-i](https://github.com/tndus73/coding_test/tree/main/1158-market-analysis-i/) | Medium |
 | [1164-product-price-at-a-given-date](https://github.com/tndus73/coding_test/tree/main/1164-product-price-at-a-given-date/) | Medium |
+| [1174-immediate-food-delivery-ii](https://github.com/tndus73/coding_test/tree/main/1174-immediate-food-delivery-ii/) | Medium |
 | [1179-reformat-department-table](https://github.com/tndus73/coding_test/tree/main/1179-reformat-department-table/) | Easy |
 | [1211-queries-quality-and-percentage](https://github.com/tndus73/coding_test/tree/main/1211-queries-quality-and-percentage/) | Easy |
 | [1251-average-selling-price](https://github.com/tndus73/coding_test/tree/main/1251-average-selling-price/) | Easy |
