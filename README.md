@@ -32,6 +32,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0610-triangle-judgement](https://github.com/tndus73/coding_test/tree/main/0610-triangle-judgement/) | Easy |
 | [0619-biggest-single-number](https://github.com/tndus73/coding_test/tree/main/0619-biggest-single-number/) | Easy |
 | [0620-not-boring-movies](https://github.com/tndus73/coding_test/tree/main/0620-not-boring-movies/) | Easy |
+| [0626-exchange-seats](https://github.com/tndus73/coding_test/tree/main/0626-exchange-seats/) | Medium |
 | [0627-swap-sex-of-employees](https://github.com/tndus73/coding_test/tree/main/0627-swap-sex-of-employees/) | Easy |
 | [1050-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/tndus73/coding_test/tree/main/1050-actors-and-directors-who-cooperated-at-least-three-times/) | Easy |
 | [1068-product-sales-analysis-i](https://github.com/tndus73/coding_test/tree/main/1068-product-sales-analysis-i/) | Easy |
