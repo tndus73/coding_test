@@ -51,6 +51,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1211-queries-quality-and-percentage](https://github.com/tndus73/coding_test/tree/main/1211-queries-quality-and-percentage/) | Easy |
 | [1251-average-selling-price](https://github.com/tndus73/coding_test/tree/main/1251-average-selling-price/) | Easy |
 | [1280-students-and-examinations](https://github.com/tndus73/coding_test/tree/main/1280-students-and-examinations/) | Easy |
+| [1321-restaurant-growth](https://github.com/tndus73/coding_test/tree/main/1321-restaurant-growth/) | Medium |
 | [1327-list-the-products-ordered-in-a-period](https://github.com/tndus73/coding_test/tree/main/1327-list-the-products-ordered-in-a-period/) | Easy |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/tndus73/coding_test/tree/main/1378-replace-employee-id-with-the-unique-identifier/) | Easy |
 | [1407-top-travellers](https://github.com/tndus73/coding_test/tree/main/1407-top-travellers/) | Easy |
