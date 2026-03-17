@@ -80,6 +80,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1965-employees-with-missing-information](https://github.com/tndus73/coding_test/tree/main/1965-employees-with-missing-information/) | Easy |
 | [1978-employees-whose-manager-left-the-company](https://github.com/tndus73/coding_test/tree/main/1978-employees-whose-manager-left-the-company/) | Easy |
 | [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/tndus73/coding_test/tree/main/2356-number-of-unique-subjects-taught-by-each-teacher/) | Easy |
+| [3220-odd-and-even-transactions](https://github.com/tndus73/coding_test/tree/main/3220-odd-and-even-transactions/) | Medium |
 | [3436-find-valid-emails](https://github.com/tndus73/coding_test/tree/main/3436-find-valid-emails/) | Easy |
 | [3465-find-products-with-valid-serial-numbers](https://github.com/tndus73/coding_test/tree/main/3465-find-products-with-valid-serial-numbers/) | Easy |
 | [3570-find-books-with-no-available-copies](https://github.com/tndus73/coding_test/tree/main/3570-find-books-with-no-available-copies/) | Easy |
