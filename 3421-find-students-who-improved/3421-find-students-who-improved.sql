@@ -1,4 +1,17 @@
 # Write your MySQL query statement below
+/**
+with temp as (
+select student_id,subject,
+        first_value(score) over (partition by student_id,subject order by exam_date) as f1 ,
+        first_value(score) over(partition by student_id,subject order by exam_date desc) as f2
+from scores
+)
+
+select  student_id, subject,f1 as first_score, f2 as latest_score 
+from temp where f1<f2
+group by 1,2
+order by 1,2
+**/
 with time_fl
 as
 (
