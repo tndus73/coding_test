@@ -84,5 +84,6 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [3421-find-students-who-improved](https://github.com/tndus73/coding_test/tree/main/3421-find-students-who-improved/) | Medium |
 | [3436-find-valid-emails](https://github.com/tndus73/coding_test/tree/main/3436-find-valid-emails/) | Easy |
 | [3465-find-products-with-valid-serial-numbers](https://github.com/tndus73/coding_test/tree/main/3465-find-products-with-valid-serial-numbers/) | Easy |
+| [3475-dna-pattern-recognition](https://github.com/tndus73/coding_test/tree/main/3475-dna-pattern-recognition/) | Medium |
 | [3570-find-books-with-no-available-copies](https://github.com/tndus73/coding_test/tree/main/3570-find-books-with-no-available-copies/) | Easy |
 <!---LeetCode Topics End-->
