@@ -1,4 +1,21 @@
 # Write your MySQL query statement below
+/**
+last3 as (
+select *
+from rank_number
+where rnk<=3
+ ),
+
+filtered as(
+select employee_id,
+max(case when rnk=1 then rating end) as r1,
+max(case when rnk=2 then rating end) as r2,
+max(case when rnk=3 then rating end) as r3
+from last3
+group by employee_id
+having count(*)>=3 and r1>r2 and r2>r3
+)
+**/
 with total
 as
 (
