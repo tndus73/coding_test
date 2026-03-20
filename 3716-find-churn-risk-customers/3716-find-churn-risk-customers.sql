@@ -16,7 +16,8 @@ select A.user_id, A.plan_name current_plan, A.monthly_amount current_monthly_amo
         , datediff(A.event_date, B.event_date) days_as_subscriber
 from total A
 inner join total B on A.user_id=B.user_id
-where A.rn=1 and B.rnfirst=1 
+where 1=1
+and A.rn=1 and B.rnfirst=1 
 and A.plan_name is not null
 and datediff(A.event_date, B.event_date) >= 60
 and A.monthly_amount < A.max_historical_amount*0.5
