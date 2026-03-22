@@ -89,6 +89,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [3451-find-invalid-ip-addresses](https://github.com/tndus73/coding_test/tree/main/3451-find-invalid-ip-addresses/) | Hard |
 | [3465-find-products-with-valid-serial-numbers](https://github.com/tndus73/coding_test/tree/main/3465-find-products-with-valid-serial-numbers/) | Easy |
 | [3475-dna-pattern-recognition](https://github.com/tndus73/coding_test/tree/main/3475-dna-pattern-recognition/) | Medium |
+| [3482-analyze-organization-hierarchy](https://github.com/tndus73/coding_test/tree/main/3482-analyze-organization-hierarchy/) | Hard |
 | [3497-analyze-subscription-conversion](https://github.com/tndus73/coding_test/tree/main/3497-analyze-subscription-conversion/) | Medium |
 | [3521-find-product-recommendation-pairs](https://github.com/tndus73/coding_test/tree/main/3521-find-product-recommendation-pairs/) | Medium |
 | [3564-seasonal-sales-analysis](https://github.com/tndus73/coding_test/tree/main/3564-seasonal-sales-analysis/) | Medium |
