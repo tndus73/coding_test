@@ -86,6 +86,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [3220-odd-and-even-transactions](https://github.com/tndus73/coding_test/tree/main/3220-odd-and-even-transactions/) | Medium |
 | [3421-find-students-who-improved](https://github.com/tndus73/coding_test/tree/main/3421-find-students-who-improved/) | Medium |
 | [3436-find-valid-emails](https://github.com/tndus73/coding_test/tree/main/3436-find-valid-emails/) | Easy |
+| [3451-find-invalid-ip-addresses](https://github.com/tndus73/coding_test/tree/main/3451-find-invalid-ip-addresses/) | Hard |
 | [3465-find-products-with-valid-serial-numbers](https://github.com/tndus73/coding_test/tree/main/3465-find-products-with-valid-serial-numbers/) | Easy |
 | [3475-dna-pattern-recognition](https://github.com/tndus73/coding_test/tree/main/3475-dna-pattern-recognition/) | Medium |
 | [3497-analyze-subscription-conversion](https://github.com/tndus73/coding_test/tree/main/3497-analyze-subscription-conversion/) | Medium |
