@@ -19,5 +19,3 @@ where USER_ID in (select USER_ID
                 from T_2021)
 group by  year(SALES_DATE), month(SALES_DATE)*1    
 order by year, month
-
-
