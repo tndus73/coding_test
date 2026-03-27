@@ -1,3 +1,4 @@
+'''
 def solution(numbers, target):
     answer = 0
     def dfs(idx, total): #몇번째숫자인지, 지금까지만든합
@@ -15,4 +16,19 @@ def solution(numbers, target):
         #- 선택
         dfs(idx+1, total-numbers[idx])
     dfs(0,0)
-    return answer
+    return answer '''
+def solution(numbers, target):
+
+    def dfs(idx, total):
+        if idx == len(numbers):
+            if total == target:
+                return 1
+            else:
+                return 0
+
+        plus_case = dfs(idx + 1, total + numbers[idx])
+        minus_case = dfs(idx + 1, total - numbers[idx])
+
+        return plus_case + minus_case
+
+    return dfs(0, 0)
