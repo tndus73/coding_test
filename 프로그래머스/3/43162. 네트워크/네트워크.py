@@ -3,7 +3,9 @@
 2. 그 컴퓨터에서 BFS 돌려서
 3. 연결된 애들을 전부 방문 처리
 4. BFS 한 번 끝나면 네트워크 1개
-'''
+
+BFS
+
 from collections import deque
 
 def solution(n, computers):
@@ -28,4 +30,22 @@ def solution(n, computers):
             bfs(i)
             answer += 1               
     
+    return answer
+'''
+def solution(n, computers):
+    visited = [False] * n
+    answer = 0
+
+    def dfs(x):
+        visited[x] = True
+
+        for i in range(n):
+            if computers[x][i] == 1 and not visited[i]:
+                dfs(i)
+
+    for i in range(n):
+        if not visited[i]:
+            dfs(i)
+            answer += 1
+
     return answer
