@@ -3,7 +3,6 @@
 먼저 배포되는 순서대로 작업 진도 정수배열 progresses
 각 작업의 개발 속도 정수배열 speeds
 각 배포마다 몇개의 기능이 배포되는지 return
-'''
 import math
 
 def solution(progresses, speeds):
@@ -26,3 +25,24 @@ def solution(progresses, speeds):
             
     answer.append(count)
     return answer
+'''
+def solution(progresses, speeds):
+        answer = []
+        days=[]
+    
+        for p, s in zip(progresses, speeds):
+            day = (100-p+s-1)//s
+            days.append(day)
+            
+        current = days[0]
+        count=1    
+        
+        for i in range(1, len(days)):
+            if days[i] <= current:
+                    count +=1
+            else:
+                    answer.append(count)
+                    current = days[i]
+                    count = 1
+        answer.append(count)
+        return answer
