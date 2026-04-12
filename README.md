@@ -84,6 +84,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1978-employees-whose-manager-left-the-company](https://github.com/tndus73/coding_test/tree/main/1978-employees-whose-manager-left-the-company/) | Easy |
 | [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/tndus73/coding_test/tree/main/2356-number-of-unique-subjects-taught-by-each-teacher/) | Easy |
 | [3220-odd-and-even-transactions](https://github.com/tndus73/coding_test/tree/main/3220-odd-and-even-transactions/) | Medium |
+| [3374-first-letter-capitalization-ii](https://github.com/tndus73/coding_test/tree/main/3374-first-letter-capitalization-ii/) | Hard |
 | [3421-find-students-who-improved](https://github.com/tndus73/coding_test/tree/main/3421-find-students-who-improved/) | Medium |
 | [3436-find-valid-emails](https://github.com/tndus73/coding_test/tree/main/3436-find-valid-emails/) | Easy |
 | [3451-find-invalid-ip-addresses](https://github.com/tndus73/coding_test/tree/main/3451-find-invalid-ip-addresses/) | Hard |
