@@ -17,18 +17,14 @@ def solution(numbers, target):
         dfs(idx+1, total-numbers[idx])
     dfs(0,0)
     return answer '''
+
 def solution(numbers, target):
 
     def dfs(idx, total):
+        #종료조건
         if idx == len(numbers):
-            if total == target:
-                return 1
-            else:
-                return 0
-
-        plus_case = dfs(idx + 1, total + numbers[idx])
-        minus_case = dfs(idx + 1, total - numbers[idx])
-
-        return plus_case + minus_case
+            return 1 if total == target else 0
+        #다음탐색
+        return dfs(idx + 1, total + numbers[idx]) + dfs(idx + 1, total - numbers[idx])
 
     return dfs(0, 0)
