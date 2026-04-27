@@ -1,6 +1,7 @@
 def solution(arr):
     answer = []
-    for x in arr:
-        if not answer or x != answer[-1] :
-            answer.append(x)
+    for i in range(len(arr)-1):
+        if arr[i] != arr[i+1]:
+            answer.append(arr[i])
+    answer.append(arr[-1])        
     return answer
