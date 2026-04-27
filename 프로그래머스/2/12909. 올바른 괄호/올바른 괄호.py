@@ -1,10 +1,10 @@
 def solution(s):
     arr = []
-    for i in s:
-        if i == '(':
-            arr.append(i)
+    for str in s:
+        if str == '(':
+            arr.append(str)
         else:
             if not arr:
                 return False
             arr.pop()
-    return len(arr) == 0        
+    return len(arr) == 0
