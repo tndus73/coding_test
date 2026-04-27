@@ -1,22 +1,19 @@
 def solution(progresses, speeds):
-        arr = []
-        answer = []
-
-        for pro, spe in zip(progresses,speeds):
-            if (100-pro)%spe == 0:
-                arr.append((100-pro)//spe)
-            else:
-                arr.append((100-pro)//spe+1)
-        
-        standard = arr[0]
+        day = []
         count = 1
-        
-        for i in range(1,len(arr)):
-            if arr[i] <= standard:
-                count+=1
+        answer = []
+        for i, j in zip(progresses, speeds):
+            if (100-i) % j == 0:
+                day.append((100-i) //j)
+            else:
+                day.append((100-i) //j +1)
+        stand = day[0]        
+        for k in range(1, len(day)):
+            if stand >=  day[k]:
+                count +=1    
             else:
                 answer.append(count)
-                standard = arr[i]
                 count = 1
-        answer.append(count)    
+                stand = day[k]
+        answer.append(count)        
         return answer
