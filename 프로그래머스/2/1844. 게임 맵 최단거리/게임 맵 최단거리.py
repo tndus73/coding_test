@@ -1,29 +1,28 @@
 from collections import deque
 
-
 def solution(maps):
     n = len(maps) #행
     m = len(maps[0]) #열
     
-    def bfs(y,x):
-        #큐
-        q = deque() 
-        q.append((0, 0))
+    def bfs(x,y):
+        q = deque()
+        q.append((0,0))
 
-        dy = [0, 1, 0, -1]
-        dx = [1, 0, -1, 0]
-        
+        dx = [0,1,0,-1]
+        dy = [1,0,-1,0]
+
         while q:
-            y, x = q.popleft()
+            x, y = q.popleft()
             
             for i in range(4):
-                ny = y + dy[i]
                 nx = x + dx[i]
+                ny = y + dy[i]
                 
-                if 0<=ny<n and 0<=nx<m:
-                    if maps[ny][nx] == 1:
-                        maps[ny][nx] = maps[y][x] + 1
-                        q.append((ny,nx))
+                if 0<=nx<n and 0<=ny<m:
+                    if maps[nx][ny] ==1:
+                        maps[nx][ny] = maps[x][y]+1
+                        q.append((nx,ny))
+                    
     bfs(0,0)
     
     if maps[n-1][m-1] == 1:
