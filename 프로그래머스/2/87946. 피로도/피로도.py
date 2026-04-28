@@ -1,3 +1,4 @@
+'''
 def solution(k, dungeons):
     visited = [False] * len(dungeons)
     
@@ -16,3 +17,21 @@ def solution(k, dungeons):
                     max_count = max(max_count, count)
         return max_count                
     return dfs(k, visited)
+'''
+from itertools import permutations
+
+def solution(k, dungeons):
+    answer = 0
+    for order in permutations(dungeons):
+        fatigue = k
+        count = 0
+        for need, use in order:
+            if fatigue >= need:
+                fatigue -= use
+                count +=1
+            else:
+                break
+        
+        answer = max(answer, count)
+    return answer   
+    
