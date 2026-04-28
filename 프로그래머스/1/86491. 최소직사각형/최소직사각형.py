@@ -1,14 +1,8 @@
-'''
-항상 큰 값을 가로로 둠
-max가로
-max세로
-'''
+
 def solution(sizes):
-    max_w = 0
-    max_h = 0
-    
-    for w,h in sizes:
-        w, h = max(w,h), min(w,h)
-        max_w = max(max_w,w)
-        max_h = max(max_h,h)
-    return max_w * max_h
+    sw = []
+    sh = []
+    for w, h in sizes:
+        sw.append(max(w,h))
+        sh.append(min(w,h))
+    return int(max(sw)) * int(max(sh))    
