@@ -1,3 +1,13 @@
+/**
+SELECT ROUND(SUM(tiv_2016),2) tiv_2016
+FROM (
+    SELECT *,
+           COUNT(*) OVER(PARTITION BY tiv_2015) c1,
+           COUNT(*) OVER(PARTITION BY lat,lon) c2
+    FROM Insurance
+) T
+WHERE c1>1 AND c2=1;
+**/
 select round(sum(tiv_2016),2) tiv_2016 
 from Insurance
 where 1=1
