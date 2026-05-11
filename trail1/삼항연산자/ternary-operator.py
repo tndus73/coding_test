@@ -1,6 +1,3 @@
 N = int(input())
 
-if N == 100:
-    print('pass')
-else:
-    print('failure')
+print('pass') if N==100 else print('failure')
