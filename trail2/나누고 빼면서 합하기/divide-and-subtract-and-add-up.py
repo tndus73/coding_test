@@ -1,7 +1,8 @@
 n, m = map(int, input().split())
 A = list(map(int, input().split()))
 
-def divsubsum(m):
+def divsubsum():
+    global m
     sumT = 0
     while m >= 1:
         sumT += A[m-1] 
@@ -11,7 +12,7 @@ def divsubsum(m):
             m //= 2       
     return sumT
 
-print(divsubsum(m))
+print(divsubsum())
 
 
 # Please write your code here.
