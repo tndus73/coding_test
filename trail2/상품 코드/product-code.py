@@ -6,9 +6,9 @@ class product():
         self.name = name
         self.code = code
 
-P = product('codetree', '50')
-print(f'product {P.code} is {P.name}')
-P = product(product_name, product_code)
-print(f'product {P.code} is {P.name}')
+P1 = product('codetree', '50')
+P2 = product(product_name, product_code)
+print(f'product {P1.code} is {P1.name}')
+print(f'product {P2.code} is {P2.name}')
 
 # Please write your code here.
