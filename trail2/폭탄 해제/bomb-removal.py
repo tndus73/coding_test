@@ -7,8 +7,8 @@ class pop:
         self.wire_color = wire_color
         self.seconds = seconds
 
-popT = pop('branch', 'G', 34)
+popT = pop(unlock_code, wire_color, seconds)
 
-print(f'code : {unlock_code}')
-print(f'color : {wire_color}')
-print(f'second : {seconds}')
+print(f'code : {popT.unlock_code}')
+print(f'color : {popT.wire_color}')
+print(f'second : {popT.seconds}')
