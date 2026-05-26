@@ -4,7 +4,6 @@ grid = [list(map(int, input().split())) for _ in range(n)]
 dxs = [0, 1, 0, -1] #행
 dys = [1, 0,-1, 0] #열
 
-cnt =0
 answer = 0
 
 for x in range(n):
