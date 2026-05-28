@@ -10,18 +10,24 @@ for x in range(19):
             continue
 
         for d in range(4):
-            stones = []
-            for k in range(5):
-                nx = x + dx[d]*k
-                ny = y + dy[d]*k
+            cnt = 1
+            nx = x
+            ny = y
 
-                if 0 <=nx<19 and 0<=ny<19:
-                    stones.append(board[nx][ny])
-            
-            if len(stones) == 5 and stones.count(board[x][y]) == 5:
+            while True:
+                nx += dx[d]
+                ny += dy[d]
+
+                if not (0 <= nx < 19 and 0 <= ny < 19):
+                    break
+
+                if board[nx][ny] != board[x][y]:
+                    break
+
+                cnt += 1
+            if cnt == 5:
                 print(board[x][y])
-                mid_x = x + dx[d] * 2
-                mid_y = y + dy[d] * 2
-                print(mid_x + 1, mid_y + 1)
+                print(x + dx[d] * 2 + 1, y + dy[d] * 2 + 1)
                 exit()
+
 print(0)
